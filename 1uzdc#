@@ -1,0 +1,10 @@
+            int sk;
+            Console.Write("Iveskite gauta pazymi: ");
+            sk=int.Parse(Console.ReadLine());
+            if (sk < 0 || sk > 10)
+                Console.Write("Neteisingai ivesti duomenys.\n");
+            else if (sk > 5 && sk <= 10)
+                Console.Write("Egzaminas islaikytas.\n");
+            else
+                Console.Write("Egzaminas neislaikytas.\n");
+            Console.ReadKey();
