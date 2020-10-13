@@ -1,0 +1,11 @@
+double le,br;
+double area,peri;
+Console.Write("Iveskite pirmaja krastine");
+le=double.Parse(Console.ReadLine());
+Console.Write("Iveskite antraja krastine");
+br=double.Parse(Console.ReadLine());
+area=le*br;
+peri=2*(le+br);
+Console.WriteLine("plotas yra : " + area);
+Console.WriteLine("perimetras yra: " + peri);
+Console.ReadKey();
