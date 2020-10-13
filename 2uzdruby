@@ -1,0 +1,15 @@
+puts "iveskite staciakampio pirma krastine" #i ekrana isvedamas norimas uzrasas
+skaicius1=gets.chomp.to_i #skaiciaus ivedimo eilute
+
+puts "iveskite staciakampio antra krastine" #i ekrana isvedamas norimas uzrasas
+skaicius2=gets.chomp.to_i #skaiciaus ivedimo eilute
+
+plotas=skaicius1*skaicius2 #apskaiciuojamas staciakampio plotas pagal formule(tai yra skaicius kurie buvo ivesti 5 ir 2 eiluteje)
+
+perimetras=(skaicius1*2)+(skaicius2*2) #apskaiciuojamas staciakampio perimetras pagal formule(tai yra skaicius kurie buvo ivesti 5 ir 2 eiluteje)
+
+     
+puts "staciakampio plotas:" #ekrane parodomas norimas uzrasas
+puts plotas #ekrane parodomas jau apskaiciuotas plotas pagal formule 7 eiluteje
+puts "staciakampio perimetras:" #ekrane parodomas norimas uzrasas
+puts perimetras #ekrane parodomas jau apskaiciuotas perimetras pagal formule 9 eiluteje
